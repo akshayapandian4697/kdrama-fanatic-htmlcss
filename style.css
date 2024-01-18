@@ -1,0 +1,116 @@
+header {
+    background-image: url(./imgs/cover-pic.jpg); /* Cite: https://www.rawpixel.com/search/purple%20sky?page=1&sort=curated */
+    background-size: cover;
+    background-position: center;
+}
+header h1 {
+    font-family: Broadway;
+    text-align: center;
+    font-size: 2em;
+    line-height: 500%;
+    font-weight: 700;
+    color: rgb(50, 0, 50);
+    text-shadow: 3px 3px 10px gray;
+}
+div {
+    margin-top: 3%;
+}
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    padding: 10px 10% 10px 10%;
+    margin-top: 20px;
+    background-color: rgb(225, 180, 225); 
+    color:black;
+    text-align: center;
+}
+footer nav a {
+    color: rgb(55, 1, 55);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    text-align: center;
+}
+ul {
+    padding: 0px;
+    list-style: none;
+}
+h1 {
+    font-family: Broadway;
+    text-align: center;
+    font-size: 2em;
+    line-height: 500%;
+    font-weight: 700;
+    color: black;
+    text-shadow: 3px 3px 10px gray;
+}
+h2,h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(40, 10, 40);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display:inline-block;
+    padding:10px 20px;
+}
+nav a:hover {
+    text-shadow: 0px 0px 1px rgb(47, 4, 61);
+}
+.links {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#intro{
+    text-align: center;
+    font-size: 17px; 
+}
+#popular, #ongoing, #upcoming{
+    margin: 40px 0px; 
+    overflow: auto;
+}
+#popular img, #ongoing img, #upcoming img, #actors img, #actress img {
+    width:150px;
+    height:200px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+#popular section, #onoing section, #upcoming section, #actors img, #actress img{
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    text-align: center;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column1 {
+    float: left;
+    width: 22%;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    text-align: center;
+}
+.row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
